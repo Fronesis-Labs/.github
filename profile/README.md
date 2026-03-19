@@ -46,7 +46,7 @@ Connect any AI agent in minutes:
 | 🔒 IP & Patents | [leibniz.fronesislabs.com/ip-patents.html](https://leibniz.fronesislabs.com/ip-patents.html) |
 | 🐦 X / Twitter | [@keykeeper42](https://x.com/keykeeper42) |
 | 📧 Contact | [partnership@fronesislabs.com](mailto:partnership@fronesislabs.com) |
-
+| SSE endpoint | [https://mcp.fronesislabs.com/sse](https://mcp.fronesislabs.com/sse) |
 ---
 
 *Every decision, every action deterministically sealed, tamper-evident, auditable.*
