@@ -47,6 +47,7 @@ Connect any AI agent in minutes:
 | 🐦 X / Twitter | [@keykeeper42](https://x.com/keykeeper42) |
 | 📧 Contact | [partnership@fronesislabs.com](mailto:partnership@fronesislabs.com) |
 | SSE endpoint | [https://mcp.fronesislabs.com/sse](https://mcp.fronesislabs.com/sse) |
+| 📜 MCP Manifest | [https://raw.githubusercontent.com/Fronesis-Labs/dcl-webhook/refs/heads/main/.well-known/agent.json](https://raw.githubusercontent.com/Fronesis-Labs/dcl-webhook/refs/heads/main/.well-known/agent.json) |
 ---
 
 *Every decision, every action deterministically sealed, tamper-evident, auditable.*
