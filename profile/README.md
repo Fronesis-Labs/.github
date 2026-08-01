@@ -1,3 +1,5 @@
+Вот актуальная версия заглавного README — без Patent Pending, с open-source позиционированием и актуальным MCP (x402, без API-ключа):
+
 # Fronesis Labs
 
 **Building the cryptographic verification layer for the AI agent economy.**
@@ -7,32 +9,46 @@
 ## What we build
 
 ### ⬡ Leibniz Layer™
-A deterministic cryptographic protocol for sealing, verifying, and auditing AI agent decisions.
-Every action an agent takes — committed into a tamper-evident SHA-256 hash chain.
+
+A deterministic cryptographic protocol for sealing, verifying, and auditing AI agent decisions.  
+Every action an agent takes can be committed into a tamper-evident hash chain — privacy-first (raw content is never stored, only hashes).
 
 → [leibniz.fronesislabs.com](https://leibniz.fronesislabs.com)
 
-### DCL Evaluator™
-The first production implementation of Leibniz Layer™.
-Desktop-native · Offline-capable · MCP-compatible · Multi-LLM.
+### DCL Trust Oracle
 
-→ [dcl-evaluator](https://github.com/Fronesis-Labs/dcl-evaluator) · [fronesislabs.com](https://fronesislabs.com)
+Production implementation of Leibniz Layer™ as a live MCP server.  
+Metered via **x402** (USDC on Base). No account. Pay per call.
+
+→ MCP: `https://mcp.fronesislabs.com/mcp`  
+→ [Smithery](https://smithery.ai/servers/fronesislabs/dcl-trust-oracle) · [402 Index](https://bazaar.fronesislabs.com)
+
+### DCL Skills (open source)
+
+Instruction-only + live-mode skills for AI agents:  
+jailbreak defense, PII/secret redaction, policy enforcement, hallucination checks, and a DeFi/crypto suite.
+
+→ [github.com/Fronesis-Labs/dcl-skills](https://github.com/Fronesis-Labs/dcl-skills)  
+→ [ClawHub @daririnch](https://clawhub.ai/daririnch)
+
+**License:** Apache 2.0 (this and related repos).  
+ClawHub listings are under the platform’s required MIT-0.
 
 ---
 
-## MCP endpoint
+## Connect the MCP endpoint
 
-Connect any AI agent in minutes:
 ```json
 {
   "mcpServers": {
-    "dcl-evaluator": {
-      "url": "https://mcp.fronesislabs.com/sse",
-      "headers": { "x-api-key": "your-key" }
+    "dcl-trust-oracle": {
+      "url": "https://mcp.fronesislabs.com/mcp"
     }
   }
 }
 ```
+
+Payment is handled via x402 (USDC on Base). No API key or account required for x402-capable clients.
 
 ---
 
@@ -41,15 +57,15 @@ Connect any AI agent in minutes:
 | | |
 |---|---|
 | 🌐 Website | [fronesislabs.com](https://fronesislabs.com) |
-| 📄 White Paper | [WHITEPAPER.md](https://github.com/Fronesis-Labs/dcl-evaluator/blob/main/WHITEPAPER.md) |
 | ⬡ Leibniz Layer™ | [leibniz.fronesislabs.com](https://leibniz.fronesislabs.com) |
-| 🔒 IP & Patents | [leibniz.fronesislabs.com/ip-patents.html](https://leibniz.fronesislabs.com/ip-patents.html) |
-| 🐦 X / Twitter | [@keykeeper42](https://x.com/keykeeper42) |
+| 📦 DCL Skills | [github.com/Fronesis-Labs/dcl-skills](https://github.com/Fronesis-Labs/dcl-skills) |
+| 🔌 MCP / Trust Oracle | [github.com/Fronesis-Labs/dcl-webhook](https://github.com/Fronesis-Labs/dcl-webhook) |
+| 📄 Whitepaper | [leibniz.fronesislabs.com](https://leibniz.fronesislabs.com) |
+| 🐦 X | [@keykeeper42](https://x.com/keykeeper42) |
 | 📧 Contact | [partnership@fronesislabs.com](mailto:partnership@fronesislabs.com) |
-| SSE endpoint | [https://mcp.fronesislabs.com/sse](https://mcp.fronesislabs.com/sse) |
-| 📜 MCP Manifest | [https://raw.githubusercontent.com/Fronesis-Labs/dcl-webhook/refs/heads/main/.well-known/agent.json](https://raw.githubusercontent.com/Fronesis-Labs/dcl-webhook/refs/heads/main/.well-known/agent.json) |
+
 ---
 
-*Every decision, every action deterministically sealed, tamper-evident, auditable.*
+*Every decision, every action — deterministically sealed, tamper-evident, auditable.*
 
-© 2026 Fronesis Labs · Patent Pending
+© 2026 Fronesis Labs · Open source (Apache 2.0)
