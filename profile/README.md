@@ -6,6 +6,7 @@
 [![smithery badge](https://smithery.ai/badge/fronesislabs/dcl-trust-oracle)](https://smithery.ai/servers/fronesislabs/dcl-trust-oracle) [![dcl-webhook MCP server](https://glama.ai/mcp/servers/Fronesis-Labs/dcl-webhook/badges/score.svg)](https://glama.ai/mcp/servers/Fronesis-Labs/dcl-webhook) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/Fronesis-Labs/dcl-webhook/blob/main/LICENSE)
 
 ---
+**Don't trust the agent. Trust the proof.**
 
 ## What we build
 
@@ -23,6 +24,14 @@ Metered via **x402** (USDC on Base). No account. Pay per call.
 
 → MCP: `https://mcp.fronesislabs.com/mcp`  
 → [Smithery](https://smithery.ai/servers/fronesislabs/dcl-trust-oracle) · [Glama](https://glama.ai/mcp/servers/Fronesis-Labs/dcl-webhook) · [402 Index](https://bazaar.fronesislabs.com)
+
+### TypeScript SDK
+
+Client-side verification for the DCL protocol — no server round-trip required.
+Recomputes the hash locally and tells you if a chain record was tampered with.
+
+→ npm install @fronesis-labs/dcl-sdk
+→ github.com/Fronesis-Labs/dcl-sdk
 
 ### DCL Skills (open source)
 
