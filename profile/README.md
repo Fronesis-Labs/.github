@@ -25,13 +25,14 @@ Metered via **x402** (USDC on Base). No account. Pay per call.
 → MCP: `https://mcp.fronesislabs.com/mcp`  
 → [Smithery](https://smithery.ai/servers/fronesislabs/dcl-trust-oracle) · [Glama](https://glama.ai/mcp/servers/Fronesis-Labs/dcl-webhook) · [402 Index](https://bazaar.fronesislabs.com)
 
-### TypeScript SDK
+### SDKs
 
 Client-side verification for the DCL protocol — no server round-trip required.
 Recomputes the hash locally and tells you if a chain record was tampered with.
 
-→ npm install @fronesis-labs/dcl-sdk
-→ github.com/Fronesis-Labs/dcl-sdk
+→ TypeScript: `npm install @fronesis-labs/dcl-sdk` — npmjs.com/package/@fronesis-labs/dcl-sdk
+→ Python: `pip install dcl-core` — pypi.org/project/dcl-core
+→ github.com/Fronesis-Labs/dcl-sdk · github.com/Fronesis-Labs/dcl-core
 
 ### DCL Skills (open source)
 
