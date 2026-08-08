@@ -27,8 +27,6 @@ Metered via **x402** (USDC on Base). No account. Pay per call.
 
 ### SDKs
 
-### SDKs
-
 Client-side verification for the DCL protocol — no server round-trip required. Recomputes the hash locally and tells you if a chain record was tampered with.
 
 → TypeScript: `npm install @fronesis-labs/dcl-sdk` — [npmjs.com/package/@fronesis-labs/dcl-sdk](https://www.npmjs.com/package/@fronesis-labs/dcl-sdk) · [github.com/Fronesis-Labs/dcl-sdk](https://github.com/Fronesis-Labs/dcl-sdk)
